@@ -1,0 +1,77 @@
+.reviewContainer {
+    max-width: 800px; 
+    margin: 0; 
+    padding: 20px; 
+    background-color: #000000; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.reviewTitle {
+    -webkit-margin-bottom-collapse: 20px; 
+    margin-bottom: 20px; 
+    font-size: 30px; 
+    color: #ffffff; 
+}
+
+.reviewList {
+    margin-bottom: 20px; 
+}
+
+.reviewItem {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    margin-bottom: 10px;
+    background-color: #1b1b1b; 
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+
+.addReview {
+    display: flex; 
+    flex-direction: column;
+}
+
+.Review-box {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 4px; 
+    font-size: 14px; 
+    background-color: #ffffff; 
+    resize: none;
+    margin-bottom: 10px;
+}
+  
+.Review-btn {
+    height: 40px; 
+    padding: 10px 15px; 
+    background-color: #FFC0CB; 
+    color: #000000; 
+    border: none; 
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    border-radius:2px;
+}
+
+.delete-btn {
+    height: 30px; 
+    width: 45px;
+    background-color: #e62344; 
+    color: #000000; 
+    border: none; 
+    font-size: 14px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+    border-radius:2px;
+    margin-left: 30px;
+}
+
+
+.Review-btn:hover {
+    background-color: #F76C6C; 
+}
